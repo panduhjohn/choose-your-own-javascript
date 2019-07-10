@@ -7,8 +7,7 @@ function handleDecision(event) {
   const inputBox = document.querySelector('.user-input');
   const userInput = inputBox.value;
 
-  if (userInput === 'north') {
-    window.location = './index-2.html';
+  if (userInput === 'east') {
+    window.location = './east.html';
   }
 }
-
