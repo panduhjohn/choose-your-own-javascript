@@ -9,5 +9,6 @@ function handleDecision(event) {
 
   if (userInput === 'east') {
     window.location = './east.html';
+  } 
   }
 }
