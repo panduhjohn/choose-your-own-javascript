@@ -7,51 +7,53 @@ function handleDecision(event) {
   const inputBox = document.querySelector('.user-input');
   const userInput = inputBox.value;
 
-  if (userInput === 'east') {
+  if (userInput.toLowerCase() === 'east') {
     window.location = './east.html';
   } 
   
-  if (userInput === 'north') {
+  if (userInput.toLowerCase() === 'north' || userInput === "NORTH") {
   window.location = './north.html';
   }
 
-  if (userInput === 'south') {
+  if (userInput.toLowerCase() === 'south') {
     window.location = './south.html';
   }
 
-  if (userInput === 'west') {
+  if (userInput.toLowerCase() === 'west') {
     window.location = './west.html';
   }
 
-  if (userInput === 'chicken') {
+  if (userInput.toLowerCase() === 'chicken') {
     window.location = './chicken.html';
   }
 
-  if (userInput === 'pizza') {
+  if (userInput.toLowerCase() === 'pizza') {
     window.location = './pizza.html';
   }
 
-  if (userInput === 'tacos') {
+  if (userInput.toLowerCase() === 'tacos') {
     window.location = './tacos.html';
   }
 
-  if (userInput === 'lamb') {
+  if (userInput.toLowerCase() === 'lamb') {
     window.location = './lamb.html';
   }
 
-  if (userInput === 'jameson') {
+  if (userInput.toLowerCase() === 'jameson') {
     window.location = './jameson.html';
   }
 
-  if (userInput === 'titos') {
+  if (userInput.toLowerCase() === 'titos') {
     window.location = './titos.html';
   }
 
-  if (userInput === 'ipa') {
+  if (userInput.toLowerCase() === 'ipa') {
     window.location = './ipa.html';
   }
 
-  if (userInput === 'corona') {
+  if (userInput.toLowerCase() === 'corona') {
     window.location = './corona.html';
   }
+
+  // if (window.location === ) 
 }
